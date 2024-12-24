@@ -91,24 +91,24 @@ The frontend will be available at http://localhost:3000/.
 ---
 ## **Usage Instructions**
 ### ***User Registration***
-Navigate to the registration page via the Register link in the header<br>
-Fill in your username, email, and password<br>
-Submit the form to register.
+- Navigate to the registration page via the Register link in the header
+- Fill in your username, email, and password
+- Submit the form to register.
 ### ***Login***
-Navigate to the login page via the Login link in the header.<br>
-Enter your email and password.<br>
-Submit the form to log in.
+- Navigate to the login page via the Login link in the header.
+- Enter your email and password.
+- Submit the form to log in.
 ### ***View Events***
-Visit the homepage to see the list of available events.<br>
-Each event displays its name, date, and price.<br>
+- Visit the homepage to see the list of available events.
+- Each event displays its name, date, and price.
 ### ***Purchase Tickets***
-Click on an event to view its details.<br>
-Click the "Purchase Ticket" button and confirm.<br>
-A unique QR code will be generated for your ticket.<br>
+- click on an event to view its details.
+- Click the "Purchase Ticket" button and confirm.
+- A unique QR code will be generated for your ticket.
 ### ***Validate Tickets***
-Use the ticket validator system at the event venue.<br>
-Scan the QR code using a QR scanner or a smartphone.<br>
-The system checks the ticket's validity and updates its status.<br>
+- Use the ticket validator system at the event venue.
+- Scan the QR code using a QR scanner or a smartphone.
+- the system checks the ticket's validity and updates its status.
 
 ---
 ## **Project Structure**
@@ -142,19 +142,19 @@ The system checks the ticket's validity and updates its status.<br>
 ---
 ## **API Endpoints**
 ### Authentication
-POST /register - Register a new user.<br>
-POST /login - Log in an existing user.<br>
+- POST /register - Register a new user.
+- POST /login - Log in an existing user.
 ### Events
-GET /events - Fetch all events.<br>
-POST /events - Add a new event (admin only).
+- GET /events - Fetch all events.
+- POST /events - Add a new event (admin only).
 ### Tickets
-POST /purchase - Purchase a ticket for an event.<br>
-POST /validate - Validate a ticket QR code.
+- POST /purchase - Purchase a ticket for an event.
+- POST /validate - Validate a ticket QR code.
 ### Future Improvements
-Add user roles (e.g., admin vs. attendee).<br>
-Include payment gateway integration for ticket purchases.<br>
-Enable real-time ticket validation updates.<br>
-Add unit and integration testing.
+- Add user roles (e.g., admin vs. attendee).
+- Include payment gateway integration for ticket purchases.
+- Enable real-time ticket validation updates.
+- Add unit and integration testing.
 ### Contributing
 If you'd like to contribute, feel free to fork the repository and submit a <br> pull request. Ensure all code changes are well-documented and tested.
 
@@ -163,6 +163,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ### Contact
 For any inquiries or support, reach out to the developer:
 
-Email: isaacimonivwerha@gmail.com<br>
-LinkedIn: https://www.linkedin.com/in/isaac-imonivwerha-9000b65a/<br>
-GitHub: https://github.com/imonisweet1
+- Email: isaacimonivwerha@gmail.com<br>
+- LinkedIn: https://www.linkedin.com/in/isaac-imonivwerha-9000b65a/<br>
+- GitHub: https://github.com/imonisweet1
